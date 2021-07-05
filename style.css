@@ -1,39 +1,62 @@
-body{
+body {
     font-family: 'Noto Sans JP',
-    sans-serif;
+        sans-serif;
     margin: 0;
 }
+
 /* banner-section */
-.half-width h1{
+.half-width h1 {
     font-size: 40px;
     font-weight: 700;
 }
-.coral-color{
+
+.coral-color {
     color: coral;
 }
-.grey-color{
+
+.grey-color {
     color: gray;
-    
+
 }
-.btn-link{
+
+.btn-link {
     text-decoration: none;
-    background-image: linear-gradient(rgb(199, 48, 22),rgb(223, 200, 98));
+    background-image: linear-gradient(rgb(199, 48, 22), rgb(223, 200, 98));
     padding: 10px 20px;
     border-radius: 20px;
     color: white;
     font-size: 20px;
 }
-h5{
+
+h5 {
     margin-bottom: 50px;
 }
-.half-width{
+
+.half-width {
     width: 50%;
     padding-left: 2%;
 }
-.half-width img{
+
+.half-width img {
     width: 80%;
 }
-.top-banner{
+
+.top-banner {
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
+}
+
+/* middle-section */
+.middle-section {
+    display: flex;
+    background-image: url(images/7.png);
+}
+
+.middle-section img {
+    width: 40%;
+    padding-left: 25%;
+    padding-top: 50px;
+}
+#about{
+    margin-bottom: 70px;
 }

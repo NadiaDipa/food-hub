@@ -67,7 +67,8 @@ h5 {
 .my-recipe {
     text-align: center;
 }
-.column-item{
+
+.column-item {
     box-shadow: 10px 10px 40px rgb(187, 123, 6);
     width: 33.33%;
     margin-left: 3%;
@@ -75,32 +76,52 @@ h5 {
     padding-left: 20px;
     border-radius: 10px;
 }
-.row{
+
+.row {
     display: flex;
     width: 90%;
     margin-left: 4px;
 }
-#food-item1{
+
+#food-item1 {
     padding-top: 20px;
     padding-right: 20px;
 }
-#food-item1 img{
+
+#food-item1 img {
     border-radius: 10px;
 }
+
 #food-item2 {
     padding-top: 20px;
     padding-right: 20px;
 }
+
 #food-item2 img {
     border-radius: 10px;
 }
+
 #food-item3 {
     padding-top: 20px;
     padding-right: 20px;
 }
+
 #food-item3 img {
     border-radius: 10px;
 }
-.recipies-section{
+
+.recipies-section {
     width: auto;
 }
+/* counting-section */
+.counting {
+    padding-right: 20px;
+    text-align: center;
+    width: 91%;
+}
+.popularity {
+    padding-left: 150px;
+    padding-right: 150px;  
+}
+
+

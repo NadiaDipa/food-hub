@@ -113,15 +113,20 @@ h5 {
 .recipies-section {
     width: auto;
 }
+
 /* counting-section */
 .counting {
     padding-right: 20px;
     text-align: center;
     width: 91%;
 }
+
 .popularity {
     padding-left: 150px;
-    padding-right: 150px;  
+    padding-right: 150px;
 }
 
-
+.popularity h1 {
+    font-size: 30px;
+    font-weight: 900;
+}

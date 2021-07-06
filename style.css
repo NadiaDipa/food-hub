@@ -2,6 +2,7 @@ body {
     font-family: 'Noto Sans JP',
         sans-serif;
     margin: 0;
+    background-color:rgb(255, 240, 227);
 }
 
 /* banner-section */
@@ -16,9 +17,7 @@ body {
 
 .grey-color {
     color: gray;
-
 }
-
 .btn-link {
     text-decoration: none;
     background-image: linear-gradient(rgb(199, 48, 22), rgb(223, 200, 98));
@@ -112,21 +111,23 @@ h5 {
 
 .recipies-section {
     width: auto;
+    
+    padding-top: 15px;
 }
 
 /* counting-section */
 .counting {
     padding-right: 20px;
     text-align: center;
-    width: 91%;
+    width: 91%; 
 }
-
 .popularity {
     padding-left: 150px;
     padding-right: 150px;
 }
-
 .popularity h1 {
     font-size: 30px;
     font-weight: 900;
 }
+/* footer */
+

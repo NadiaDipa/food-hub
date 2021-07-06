@@ -90,6 +90,7 @@ h5 {
 /* recipe-section */
 .my-recipe {
     text-align: center;
+   
 }
 .column-item {
     box-shadow: 10px 10px 40px rgb(187, 123, 6);
@@ -101,8 +102,8 @@ h5 {
 }
 .row {
     display: flex;
-    width: 100%;
-    margin-left: 4px;
+    width: 90%;
+    margin-left: 45px;
 }
 #food-item1 {
     padding-top: 20px;
@@ -128,7 +129,8 @@ h5 {
 .recipies-section {
     width: auto;
     padding-top: 15px;
-    margin: auto;
+    margin-left: 40px;
+    margin-right: 35x;
 }
 .recipies-section .grey-color{
     padding-bottom: 25px;
@@ -136,18 +138,23 @@ h5 {
 
 /* counting-section */
 .counting {
-    padding-right: 45px;
+    padding-right: 90px;
+    padding-left: 40px;
     margin-top: 110px;
+    margin-left: 115px;
     text-align: center;
-    width: 91%;
+    width: 70%;
 }
 .popularity {
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .popularity h1 {
     font-size: 30px;
     font-weight: 900;
+}
+.row{
+    justify-content: center;
 }
 
 /* contact */

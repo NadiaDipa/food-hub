@@ -3,6 +3,7 @@ body {
         sans-serif;
     margin: 0;
     background-color: rgb(255, 240, 227);
+    
 }
 
 /* navbar-section */
@@ -93,14 +94,14 @@ h5 {
 .column-item {
     box-shadow: 10px 10px 40px rgb(187, 123, 6);
     width: 33.33%;
-    margin-left: 3%;
-    margin: 3%;
+    margin-left: 20px;
+    margin-right: 20px;
     padding-left: 20px;
     border-radius: 10px;
 }
 .row {
     display: flex;
-    width: 90%;
+    width: 100%;
     margin-left: 4px;
 }
 #food-item1 {
@@ -127,6 +128,10 @@ h5 {
 .recipies-section {
     width: auto;
     padding-top: 15px;
+    margin: auto;
+}
+.recipies-section .grey-color{
+    padding-bottom: 25px;
 }
 
 /* counting-section */

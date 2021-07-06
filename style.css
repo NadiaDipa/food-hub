@@ -5,20 +5,46 @@ body {
     background-color: rgb(255, 240, 227);
 }
 
-/* top-section */
+/* navbar-section */
+ul {
+    list-style: none;
+    display: flex;
+    background-color: rgb(7, 7, 7);
+    justify-content: center;
+    padding: 0;
+    padding: 15px 20px;
+    margin: 0;
+}
+ul li a {
+    padding: 15px 20px;
+    color: rgb(255, 240, 227);
+    text-decoration: none;
+}
+h1 p a {
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    font-size: 2.8em;
+    padding: 10px 0;
+    font-weight: 800;
+}
+p {
+    font-size: 1.1em;
+    font-weight: 100;
+}
+
+/* banner-section */
 .half-width h1 {
     font-size: 40px;
     font-weight: 700;
 }
-
 .coral-color {
     color: coral;
 }
-
 .grey-color {
     color: gray;
 }
-
 .btn-link {
     text-decoration: none;
     background-image: linear-gradient(rgb(199, 48, 22), rgb(223, 200, 98));
@@ -27,25 +53,20 @@ body {
     color: white;
     font-size: 20px;
 }
-
 h5 {
     margin-bottom: 50px;
 }
-
 .half-width {
     width: 50%;
     padding-left: 2%;
 }
-
 .half-width img {
     width: 80%;
 }
-
 .top-banner {
     display: flex;
     margin-bottom: 100px;
 }
-
 #organic {
     margin-bottom: 70px;
 }
@@ -56,13 +77,11 @@ h5 {
     background-image: url(images/7.png);
     background-repeat: no-repeat;
 }
-
 .middle-section img {
     width: 40%;
     padding-left: 25%;
     padding-top: 50px;
 }
-
 #about {
     margin-bottom: 70px;
 }
@@ -71,7 +90,6 @@ h5 {
 .my-recipe {
     text-align: center;
 }
-
 .column-item {
     box-shadow: 10px 10px 40px rgb(187, 123, 6);
     width: 33.33%;
@@ -80,43 +98,34 @@ h5 {
     padding-left: 20px;
     border-radius: 10px;
 }
-
 .row {
     display: flex;
     width: 90%;
     margin-left: 4px;
 }
-
 #food-item1 {
     padding-top: 20px;
     padding-right: 20px;
 }
-
 #food-item1 img {
     border-radius: 10px;
 }
-
 #food-item2 {
     padding-top: 20px;
     padding-right: 20px;
 }
-
 #food-item2 img {
     border-radius: 10px;
 }
-
 #food-item3 {
     padding-top: 20px;
     padding-right: 20px;
 }
-
 #food-item3 img {
     border-radius: 10px;
 }
-
 .recipies-section {
     width: auto;
-
     padding-top: 15px;
 }
 
@@ -126,62 +135,50 @@ h5 {
     margin-top: 110px;
     text-align: center;
     width: 91%;
-
 }
-
 .popularity {
     padding-left: 150px;
     padding-right: 150px;
 }
-
 .popularity h1 {
     font-size: 30px;
     font-weight: 900;
 }
 
-/* footer */
-.footer {
-    display: flex;
-    width: 100%;
-
-}
-
-.footer-form {
-    margin: 60px;
-}
-
-label {
-    float: left;
-    width: 6em;
-    text-align: center;
-}
-
-input textarea {
-    text-align: left;
-}
-
-#text-area {
-    margin-top: 40px;
-}
-
-form input {
-    padding-right: 2px;
-    padding-left: 4px;
-}
-.box {
-    border-color: rgb(230, 117, 12);
-}
-.submit {
-    margin-left: 95px;
-    padding: 10px 10px;
-    border-radius: 10px;
-    background-image: linear-gradient(orange, coral);
-}
-
+/* contact */
 .bottom-part {
     display: flex;
+    width: 100%;
 }
+.input{
+    padding: 5px;
+    margin-bottom: 20px;
+    width: 500px;
+    height: 40px;
+    border: 2px solid rgb(22, 20, 18);
+    border-color: rgb(248, 125, 10);
+    border-radius: 10px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.btn-link{
+    padding: 15px 20px 15px 20px;
+    border-radius: 20px;
+}
+
 
 #mission {
     padding-top: 60px;
+}
+
+/* footer */
+.footer {
+    background-color: rgb(7, 7, 7);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(255, 240, 227);
+    margin-top: 30px;
+}
+#footer-hub {
+    text-align: center;
 }

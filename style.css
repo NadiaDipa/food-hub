@@ -2,10 +2,10 @@ body {
     font-family: 'Noto Sans JP',
         sans-serif;
     margin: 0;
-    background-color:rgb(255, 240, 227);
+    background-color: rgb(255, 240, 227);
 }
 
-/* banner-section */
+/* top-section */
 .half-width h1 {
     font-size: 40px;
     font-weight: 700;
@@ -18,6 +18,7 @@ body {
 .grey-color {
     color: gray;
 }
+
 .btn-link {
     text-decoration: none;
     background-image: linear-gradient(rgb(199, 48, 22), rgb(223, 200, 98));
@@ -43,6 +44,10 @@ h5 {
 .top-banner {
     display: flex;
     margin-bottom: 100px;
+}
+
+#organic {
+    margin-bottom: 70px;
 }
 
 /* middle-section */
@@ -111,23 +116,72 @@ h5 {
 
 .recipies-section {
     width: auto;
-    
+
     padding-top: 15px;
 }
 
 /* counting-section */
 .counting {
-    padding-right: 20px;
+    padding-right: 30px;
+    margin-top: 110px;
     text-align: center;
-    width: 91%; 
+    width: 91%;
+
 }
+
 .popularity {
     padding-left: 150px;
     padding-right: 150px;
 }
+
 .popularity h1 {
     font-size: 30px;
     font-weight: 900;
 }
-/* footer */
 
+/* footer */
+.footer {
+    display: flex;
+    width: 100%;
+
+}
+
+.footer-form {
+    margin: 60px;
+}
+
+label {
+    float: left;
+    width: 6em;
+    text-align: center;
+}
+
+input textarea {
+    text-align: left;
+}
+
+#text-area {
+    margin-top: 40px;
+}
+
+form input {
+    padding-right: 2px;
+    padding-left: 4px;
+}
+.box {
+    border-color: rgb(230, 117, 12);
+}
+.submit {
+    margin-left: 95px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-image: linear-gradient(orange, coral);
+}
+
+.bottom-part {
+    display: flex;
+}
+
+#mission {
+    padding-top: 60px;
+}

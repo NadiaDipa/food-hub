@@ -3,10 +3,26 @@ body {
         sans-serif;
     margin: 0;
     background-color: rgb(255, 240, 227);
-    
 }
 
 /* navbar-section */
+.nav {
+    display: flex;
+    width: 100%;
+    background-color: rgb(7, 7, 7);
+    font-size: 20px;
+}
+
+.nav a {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#menu {
+    padding-right: 250px;
+    margin-left: 170px;
+}
+
 ul {
     list-style: none;
     display: flex;
@@ -16,20 +32,24 @@ ul {
     padding: 15px 20px;
     margin: 0;
 }
+
 ul li a {
     padding: 15px 20px;
     color: rgb(255, 240, 227);
     text-decoration: none;
 }
+
 h1 p a {
     padding: 0;
     margin: 0;
 }
+
 h1 {
     font-size: 2.8em;
     padding: 10px 0;
     font-weight: 800;
 }
+
 p {
     font-size: 1.1em;
     font-weight: 100;
